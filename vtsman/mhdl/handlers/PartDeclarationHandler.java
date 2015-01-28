@@ -38,7 +38,7 @@ public class PartDeclarationHandler {
 			return false;
 		}
 		p.partString.put(args[1], vtsman.mhdl.Compiler.compile(a, null, null));
-		for (int i = l; i < l + a.length;)
+		for (int i = l; i < l + a.length; i++)
 			p.marked.add(i);
 		return true;
 	}
